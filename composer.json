@@ -11,17 +11,17 @@
     "require": {
         "psr/log": "~1.0",
         "sentry/sentry": "~1.1",
-        "symfony/framework-bundle": "~2.3|~3.0",
-        "symfony/doctrine-bridge": "~2.3|~3.0"
+        "symfony/framework-bundle": ">=2.3",
+        "symfony/doctrine-bridge": ">=2.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "~5.0",
-        "doctrine/orm": "~2.3",
-        "symfony/validator": "~2.3|~3.0"
+        "phpunit/phpunit": ">=5.0",
+        "doctrine/orm": ">=2.3",
+        "symfony/validator": ">=2.3"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.1.x-dev"
+            "dev-master": "3.0.x-dev"
         }
     },
     "autoload": {
